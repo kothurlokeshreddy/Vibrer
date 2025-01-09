@@ -1,0 +1,75 @@
+.about-us-section  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-section h2 {
+    width: 147px;
+    height: 48px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.about-us-section p {
+    width: 809px;
+    height: 56px;
+    text-align: center;
+}
+
+.content-imgs {
+    display: flex;
+    align-self: center;
+}
+
+.content {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.textbox {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.textbox h3 {
+    width: 240px;
+    height: 48px;
+}
+
+.textbox p{
+    height: 96px;
+    width: 293px;
+    text-align: left;
+}
+
+.pic-1, .pic-4 {
+    width: 228px;
+    height: 121px;
+    border-radius: 12px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.pic-2, .pic-3 {
+    width: 226px;
+    height: 303px;
+    border-radius: 12px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}

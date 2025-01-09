@@ -1,0 +1,74 @@
+/* Group */
+.header {
+    background-color: black;
+    color: #ffffff;
+    width: 100vw;
+    height: 115px;
+    top: -3px;
+    left: -7px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+}
+
+.logo {
+    width: 124px;
+    height: 124px;
+    top: -2px;
+    left: 51px;
+    gap: 0px;
+    opacity: 0px;
+} 
+
+.nav-list-items {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.nav-list-items li {
+    list-style-type: none;
+    margin-right: 50px;
+    
+}
+
+button {
+    height: 24px;
+    width: 24px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.dropdown {
+    width: 16px;
+    height: 16px;
+    top: 56px;
+    left: 354px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+.nav-icons-button {
+    margin: auto 100px auto 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.dropdown-list {
+    padding: 10px;
+    width: 140px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 0.5px solid #D3D3D3;
+    color : #000;
+    margin-top: 30px;
+    transform: skewX(0deg);
+    position: absolute;
+    display: none;
+}
